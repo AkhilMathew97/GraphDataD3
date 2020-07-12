@@ -1,0 +1,52 @@
+.Ch1{
+    position: relative;
+    color: #f0ecec;
+}
+.line {
+  fill: none;
+  stroke: #ff0000;
+  stroke-linecap: square;
+}
+
+.axis {
+  stroke-width: 2pt;
+  stroke-linecap: square;
+}
+
+.tick {
+  stroke-width: 2pt;
+  stroke-linecap: square;
+  font-size: 15pt;
+}
+
+.chart {
+  width: 90%;
+  position: relative;
+
+}
+
+.grid .tick line {
+  stroke: #e2e2e2;
+  stroke-width: 0.75pt;
+  stroke-linecap: square;
+  stroke-dasharray: 2pt;
+}
+
+.charts{
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.linechart1{
+    position: relative;
+    top: 60px;
+    left: 60px;
+    margin: auto;
+}
+
+.barchart1{
+    position: relative;
+    top: 30px;
+    margin: auto;
+}
