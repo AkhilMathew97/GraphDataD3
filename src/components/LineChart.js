@@ -44,7 +44,7 @@ function Chart({width,height,data}){
 
     var svg = d3.select(hook.current).append("svg")
                   .attr("preserveAspectRatio", "xMinYMin meet")
-                  .attr("viewBox", "0 0 600 400")
+                  .attr("viewBox", "-40 0 600 400")
                   .classed("svg-content-responsive", true)
                   .attr("id","lineChart")
 
