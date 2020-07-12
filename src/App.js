@@ -98,7 +98,7 @@ function App() {
                         <button className="btn btn-dark" onClick={changeLineData}>Change Data</button>
                     </div>
                     <div className="col-12 mt-3 ">
-                        {lData!=0 ? <LineChart data={lData}/>: null}
+                        {lData!==0 ? <LineChart data={lData}/>: null}
                     </div>
                 
                 </div>
